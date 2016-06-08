@@ -7,15 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		026DA84D1CEDC570000D43EB /* SystemSettingTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 026DA84C1CEDC570000D43EB /* SystemSettingTVC.m */; };
+		026DA8521CEE9F52000D43EB /* OTSystemSettingEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 026DA84F1CEE9F52000D43EB /* OTSystemSettingEntity+CoreDataProperties.m */; };
+		026DA8531CEE9F52000D43EB /* OTSystemSettingEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 026DA8511CEE9F52000D43EB /* OTSystemSettingEntity.m */; };
+		026DA8561CEE9F96000D43EB /* OTSystemSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 026DA8551CEE9F96000D43EB /* OTSystemSettingManager.m */; };
 		0283EA261CE5727C00F84FAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA251CE5727C00F84FAB /* main.m */; };
 		0283EA291CE5727C00F84FAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA281CE5727C00F84FAB /* AppDelegate.m */; };
-		0283EA2C1CE5727D00F84FAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA2B1CE5727D00F84FAB /* ViewController.m */; };
 		0283EA2F1CE5727D00F84FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0283EA2D1CE5727D00F84FAB /* Main.storyboard */; };
 		0283EA321CE5727D00F84FAB /* IJiaBan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA301CE5727D00F84FAB /* IJiaBan.xcdatamodeld */; };
 		0283EA341CE5727D00F84FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0283EA331CE5727D00F84FAB /* Assets.xcassets */; };
-		0283EA371CE5727D00F84FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0283EA351CE5727D00F84FAB /* LaunchScreen.storyboard */; };
 		0283EA421CE5727D00F84FAB /* IJiaBanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA411CE5727D00F84FAB /* IJiaBanTests.m */; };
 		0283EA4D1CE5727D00F84FAB /* IJiaBanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA4C1CE5727D00F84FAB /* IJiaBanUITests.m */; };
+		0283EA641CE5789600F84FAB /* UITableView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA631CE5789600F84FAB /* UITableView+EmptyData.m */; };
+		0283EA6A1CE57B3F00F84FAB /* OTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA691CE57B3F00F84FAB /* OTNavigationController.m */; };
+		0283EA701CE57C2E00F84FAB /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA6F1CE57C2E00F84FAB /* UIColor+Extension.m */; };
+		0283EA731CE5822000F84FAB /* ShowLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA721CE5822000F84FAB /* ShowLogViewController.m */; };
+		0283EA761CE585FB00F84FAB /* AddLogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA751CE585FB00F84FAB /* AddLogTableViewController.m */; };
+		0283EA7C1CE59ACC00F84FAB /* ICSDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA791CE59ACC00F84FAB /* ICSDrawerController.m */; };
+		0283EA7D1CE59ACC00F84FAB /* ICSDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA7B1CE59ACC00F84FAB /* ICSDropShadowView.m */; };
+		0283EA851CE59EBF00F84FAB /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA841CE59EBF00F84FAB /* MenuViewController.m */; };
+		0283EA891CE5A4E600F84FAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0283EA881CE5A4E600F84FAB /* LaunchScreen.xib */; };
+		0283EA8D1CE5A53900F84FAB /* loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0283EA8C1CE5A53900F84FAB /* loading.jpg */; };
+		0283EA901CE5CD2600F84FAB /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA8F1CE5CD2600F84FAB /* MenuCell.m */; };
+		0283EA991CE5D7AA00F84FAB /* OTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA961CE5D7AA00F84FAB /* OTTabBarController.m */; };
+		0283EA9A1CE5D7AA00F84FAB /* OTTabBarStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EA981CE5D7AA00F84FAB /* OTTabBarStoryboardSegue.m */; };
+		0283EAA11CE5DA2400F84FAB /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0283EAA01CE5DA2400F84FAB /* TabBarViewController.m */; };
+		0283EAA61CE9D1AF00F84FAB /* user_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0283EAA51CE9D1AF00F84FAB /* user_logo.jpg */; };
+		0292A8791CEC5855002D7C4A /* OTLogDataEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0292A8761CEC5855002D7C4A /* OTLogDataEntity+CoreDataProperties.m */; };
+		0292A87A1CEC5855002D7C4A /* OTLogDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0292A8781CEC5855002D7C4A /* OTLogDataEntity.m */; };
+		0292A87F1CEC589F002D7C4A /* OTMemberDataEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0292A87C1CEC589F002D7C4A /* OTMemberDataEntity+CoreDataProperties.m */; };
+		0292A8801CEC589F002D7C4A /* OTMemberDataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0292A87E1CEC589F002D7C4A /* OTMemberDataEntity.m */; };
+		0292A8851CEC5B01002D7C4A /* OTDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0292A8841CEC5B01002D7C4A /* OTDataManager.m */; };
+		0292A88C1CEC6EE2002D7C4A /* MemberListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0292A88B1CEC6EE2002D7C4A /* MemberListTVC.m */; };
+		0292A88F1CEC7322002D7C4A /* AddMemberTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0292A88E1CEC7322002D7C4A /* AddMemberTVC.m */; };
+		02E7E4B11CEC32C8002FDD29 /* ShowLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E7E4B01CEC32C8002FDD29 /* ShowLogCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,16 +61,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026DA8051CED5D64000D43EB /* PassValueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassValueDelegate.h; sourceTree = "<group>"; };
+		026DA84B1CEDC570000D43EB /* SystemSettingTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSettingTVC.h; sourceTree = "<group>"; };
+		026DA84C1CEDC570000D43EB /* SystemSettingTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemSettingTVC.m; sourceTree = "<group>"; };
+		026DA84E1CEE9F52000D43EB /* OTSystemSettingEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OTSystemSettingEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		026DA84F1CEE9F52000D43EB /* OTSystemSettingEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OTSystemSettingEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		026DA8501CEE9F52000D43EB /* OTSystemSettingEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSystemSettingEntity.h; sourceTree = "<group>"; };
+		026DA8511CEE9F52000D43EB /* OTSystemSettingEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSystemSettingEntity.m; sourceTree = "<group>"; };
+		026DA8541CEE9F96000D43EB /* OTSystemSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSystemSettingManager.h; sourceTree = "<group>"; };
+		026DA8551CEE9F96000D43EB /* OTSystemSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSystemSettingManager.m; sourceTree = "<group>"; };
 		0283EA211CE5727C00F84FAB /* IJiaBan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IJiaBan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0283EA251CE5727C00F84FAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0283EA271CE5727C00F84FAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0283EA281CE5727C00F84FAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0283EA2A1CE5727C00F84FAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0283EA2B1CE5727D00F84FAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0283EA2E1CE5727D00F84FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0283EA311CE5727D00F84FAB /* IJiaBan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IJiaBan.xcdatamodel; sourceTree = "<group>"; };
 		0283EA331CE5727D00F84FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0283EA361CE5727D00F84FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0283EA381CE5727D00F84FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0283EA3D1CE5727D00F84FAB /* IJiaBanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IJiaBanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0283EA411CE5727D00F84FAB /* IJiaBanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJiaBanTests.m; sourceTree = "<group>"; };
@@ -53,6 +84,51 @@
 		0283EA481CE5727D00F84FAB /* IJiaBanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IJiaBanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0283EA4C1CE5727D00F84FAB /* IJiaBanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJiaBanUITests.m; sourceTree = "<group>"; };
 		0283EA4E1CE5727D00F84FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0283EA621CE5789600F84FAB /* UITableView+EmptyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+EmptyData.h"; sourceTree = "<group>"; };
+		0283EA631CE5789600F84FAB /* UITableView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EmptyData.m"; sourceTree = "<group>"; };
+		0283EA661CE57A6900F84FAB /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		0283EA681CE57B3F00F84FAB /* OTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTNavigationController.h; sourceTree = "<group>"; };
+		0283EA691CE57B3F00F84FAB /* OTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTNavigationController.m; sourceTree = "<group>"; };
+		0283EA6E1CE57C2E00F84FAB /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		0283EA6F1CE57C2E00F84FAB /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		0283EA711CE5822000F84FAB /* ShowLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowLogViewController.h; sourceTree = "<group>"; };
+		0283EA721CE5822000F84FAB /* ShowLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowLogViewController.m; sourceTree = "<group>"; };
+		0283EA741CE585FB00F84FAB /* AddLogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLogTableViewController.h; sourceTree = "<group>"; };
+		0283EA751CE585FB00F84FAB /* AddLogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLogTableViewController.m; sourceTree = "<group>"; };
+		0283EA781CE59ACC00F84FAB /* ICSDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDrawerController.h; sourceTree = "<group>"; };
+		0283EA791CE59ACC00F84FAB /* ICSDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDrawerController.m; sourceTree = "<group>"; };
+		0283EA7A1CE59ACC00F84FAB /* ICSDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDropShadowView.h; sourceTree = "<group>"; };
+		0283EA7B1CE59ACC00F84FAB /* ICSDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDropShadowView.m; sourceTree = "<group>"; };
+		0283EA831CE59EBF00F84FAB /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		0283EA841CE59EBF00F84FAB /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		0283EA881CE5A4E600F84FAB /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		0283EA8C1CE5A53900F84FAB /* loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loading.jpg; sourceTree = "<group>"; };
+		0283EA8E1CE5CD2600F84FAB /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuCell.h; sourceTree = "<group>"; };
+		0283EA8F1CE5CD2600F84FAB /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuCell.m; sourceTree = "<group>"; };
+		0283EA951CE5D7AA00F84FAB /* OTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTTabBarController.h; sourceTree = "<group>"; };
+		0283EA961CE5D7AA00F84FAB /* OTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTTabBarController.m; sourceTree = "<group>"; };
+		0283EA971CE5D7AA00F84FAB /* OTTabBarStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTTabBarStoryboardSegue.h; sourceTree = "<group>"; };
+		0283EA981CE5D7AA00F84FAB /* OTTabBarStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTTabBarStoryboardSegue.m; sourceTree = "<group>"; };
+		0283EA9F1CE5DA2400F84FAB /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		0283EAA01CE5DA2400F84FAB /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		0283EAA51CE9D1AF00F84FAB /* user_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user_logo.jpg; sourceTree = "<group>"; };
+		028C3F9C1CEEF1C300CA4804 /* OTProjectConfigPCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTProjectConfigPCH.pch; sourceTree = "<group>"; };
+		0292A8751CEC5855002D7C4A /* OTLogDataEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OTLogDataEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0292A8761CEC5855002D7C4A /* OTLogDataEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OTLogDataEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0292A8771CEC5855002D7C4A /* OTLogDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTLogDataEntity.h; sourceTree = "<group>"; };
+		0292A8781CEC5855002D7C4A /* OTLogDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTLogDataEntity.m; sourceTree = "<group>"; };
+		0292A87B1CEC589F002D7C4A /* OTMemberDataEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OTMemberDataEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0292A87C1CEC589F002D7C4A /* OTMemberDataEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OTMemberDataEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0292A87D1CEC589F002D7C4A /* OTMemberDataEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTMemberDataEntity.h; sourceTree = "<group>"; };
+		0292A87E1CEC589F002D7C4A /* OTMemberDataEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTMemberDataEntity.m; sourceTree = "<group>"; };
+		0292A8831CEC5B01002D7C4A /* OTDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTDataManager.h; sourceTree = "<group>"; };
+		0292A8841CEC5B01002D7C4A /* OTDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTDataManager.m; sourceTree = "<group>"; };
+		0292A88A1CEC6EE2002D7C4A /* MemberListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberListTVC.h; sourceTree = "<group>"; };
+		0292A88B1CEC6EE2002D7C4A /* MemberListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberListTVC.m; sourceTree = "<group>"; };
+		0292A88D1CEC7322002D7C4A /* AddMemberTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMemberTVC.h; sourceTree = "<group>"; };
+		0292A88E1CEC7322002D7C4A /* AddMemberTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMemberTVC.m; sourceTree = "<group>"; };
+		02E7E4AF1CEC32C8002FDD29 /* ShowLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowLogCell.h; sourceTree = "<group>"; };
+		02E7E4B01CEC32C8002FDD29 /* ShowLogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowLogCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +156,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		026DA8041CED5D40000D43EB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				026DA8051CED5D64000D43EB /* PassValueDelegate.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		026DA8481CEDC53C000D43EB /* SystemSetting */ = {
+			isa = PBXGroup;
+			children = (
+				026DA84A1CEDC550000D43EB /* Views */,
+				026DA8491CEDC548000D43EB /* Controller */,
+			);
+			name = SystemSetting;
+			sourceTree = "<group>";
+		};
+		026DA8491CEDC548000D43EB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				026DA84B1CEDC570000D43EB /* SystemSettingTVC.h */,
+				026DA84C1CEDC570000D43EB /* SystemSettingTVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		026DA84A1CEDC550000D43EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		0283EA181CE5727C00F84FAB = {
 			isa = PBXGroup;
 			children = (
@@ -103,16 +212,21 @@
 		0283EA231CE5727C00F84FAB /* IJiaBan */ = {
 			isa = PBXGroup;
 			children = (
+				026DA8041CED5D40000D43EB /* Protocol */,
+				0283EA771CE59A7F00F84FAB /* Drawer */,
+				0283EA671CE57AFC00F84FAB /* NavigationController */,
+				0283EA651CE57A2F00F84FAB /* ProjectConfig */,
+				0283EA5C1CE5749600F84FAB /* Extensions */,
+				0283EA5B1CE5748D00F84FAB /* ViewController */,
+				0283EA5A1CE5729D00F84FAB /* CoreData */,
+				0283EA9B1CE5D8B500F84FAB /* Controls */,
+				0283EA8A1CE5A51600F84FAB /* Assets */,
 				0283EA271CE5727C00F84FAB /* AppDelegate.h */,
 				0283EA281CE5727C00F84FAB /* AppDelegate.m */,
-				0283EA2A1CE5727C00F84FAB /* ViewController.h */,
-				0283EA2B1CE5727D00F84FAB /* ViewController.m */,
 				0283EA2D1CE5727D00F84FAB /* Main.storyboard */,
 				0283EA331CE5727D00F84FAB /* Assets.xcassets */,
-				0283EA351CE5727D00F84FAB /* LaunchScreen.storyboard */,
-				0283EA381CE5727D00F84FAB /* Info.plist */,
-				0283EA301CE5727D00F84FAB /* IJiaBan.xcdatamodeld */,
 				0283EA241CE5727C00F84FAB /* Supporting Files */,
+				0283EA881CE5A4E600F84FAB /* LaunchScreen.xib */,
 			);
 			path = IJiaBan;
 			sourceTree = "<group>";
@@ -121,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				0283EA251CE5727C00F84FAB /* main.m */,
+				0283EA381CE5727D00F84FAB /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +256,210 @@
 				0283EA4E1CE5727D00F84FAB /* Info.plist */,
 			);
 			path = IJiaBanUITests;
+			sourceTree = "<group>";
+		};
+		0283EA5A1CE5729D00F84FAB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0292A8821CEC58F5002D7C4A /* EntityManager */,
+				0292A8811CEC58E0002D7C4A /* EntityClass */,
+				0283EA301CE5727D00F84FAB /* IJiaBan.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		0283EA5B1CE5748D00F84FAB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				026DA8481CEDC53C000D43EB /* SystemSetting */,
+				0292A8871CEC6EAE002D7C4A /* MyMember */,
+				0292A8861CEC6E9E002D7C4A /* MyLog */,
+				0283EA9E1CE5DA0700F84FAB /* TabBarController */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0283EA5C1CE5749600F84FAB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA621CE5789600F84FAB /* UITableView+EmptyData.h */,
+				0283EA631CE5789600F84FAB /* UITableView+EmptyData.m */,
+				0283EA6E1CE57C2E00F84FAB /* UIColor+Extension.h */,
+				0283EA6F1CE57C2E00F84FAB /* UIColor+Extension.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		0283EA5D1CE574ED00F84FAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02E7E4AF1CEC32C8002FDD29 /* ShowLogCell.h */,
+				02E7E4B01CEC32C8002FDD29 /* ShowLogCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0283EA5E1CE574F400F84FAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA711CE5822000F84FAB /* ShowLogViewController.h */,
+				0283EA721CE5822000F84FAB /* ShowLogViewController.m */,
+				0283EA741CE585FB00F84FAB /* AddLogTableViewController.h */,
+				0283EA751CE585FB00F84FAB /* AddLogTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0283EA651CE57A2F00F84FAB /* ProjectConfig */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA661CE57A6900F84FAB /* Config.h */,
+				028C3F9C1CEEF1C300CA4804 /* OTProjectConfigPCH.pch */,
+			);
+			name = ProjectConfig;
+			sourceTree = "<group>";
+		};
+		0283EA671CE57AFC00F84FAB /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA681CE57B3F00F84FAB /* OTNavigationController.h */,
+				0283EA691CE57B3F00F84FAB /* OTNavigationController.m */,
+			);
+			name = NavigationController;
+			sourceTree = "<group>";
+		};
+		0283EA771CE59A7F00F84FAB /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA821CE59EA000F84FAB /* Menu */,
+				0283EA781CE59ACC00F84FAB /* ICSDrawerController.h */,
+				0283EA791CE59ACC00F84FAB /* ICSDrawerController.m */,
+				0283EA7A1CE59ACC00F84FAB /* ICSDropShadowView.h */,
+				0283EA7B1CE59ACC00F84FAB /* ICSDropShadowView.m */,
+			);
+			name = Drawer;
+			sourceTree = "<group>";
+		};
+		0283EA821CE59EA000F84FAB /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA831CE59EBF00F84FAB /* MenuViewController.h */,
+				0283EA841CE59EBF00F84FAB /* MenuViewController.m */,
+				0283EA8E1CE5CD2600F84FAB /* MenuCell.h */,
+				0283EA8F1CE5CD2600F84FAB /* MenuCell.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		0283EA8A1CE5A51600F84FAB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA8B1CE5A52B00F84FAB /* image */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		0283EA8B1CE5A52B00F84FAB /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA8C1CE5A53900F84FAB /* loading.jpg */,
+				0283EAA51CE9D1AF00F84FAB /* user_logo.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		0283EA9B1CE5D8B500F84FAB /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA9C1CE5D8CA00F84FAB /* TabBarController */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		0283EA9C1CE5D8CA00F84FAB /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA951CE5D7AA00F84FAB /* OTTabBarController.h */,
+				0283EA961CE5D7AA00F84FAB /* OTTabBarController.m */,
+				0283EA971CE5D7AA00F84FAB /* OTTabBarStoryboardSegue.h */,
+				0283EA981CE5D7AA00F84FAB /* OTTabBarStoryboardSegue.m */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
+		0283EA9E1CE5DA0700F84FAB /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA9F1CE5DA2400F84FAB /* TabBarViewController.h */,
+				0283EAA01CE5DA2400F84FAB /* TabBarViewController.m */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
+		0292A8811CEC58E0002D7C4A /* EntityClass */ = {
+			isa = PBXGroup;
+			children = (
+				0292A87B1CEC589F002D7C4A /* OTMemberDataEntity+CoreDataProperties.h */,
+				0292A87C1CEC589F002D7C4A /* OTMemberDataEntity+CoreDataProperties.m */,
+				0292A87D1CEC589F002D7C4A /* OTMemberDataEntity.h */,
+				0292A87E1CEC589F002D7C4A /* OTMemberDataEntity.m */,
+				0292A8751CEC5855002D7C4A /* OTLogDataEntity+CoreDataProperties.h */,
+				0292A8761CEC5855002D7C4A /* OTLogDataEntity+CoreDataProperties.m */,
+				0292A8771CEC5855002D7C4A /* OTLogDataEntity.h */,
+				0292A8781CEC5855002D7C4A /* OTLogDataEntity.m */,
+				026DA84E1CEE9F52000D43EB /* OTSystemSettingEntity+CoreDataProperties.h */,
+				026DA84F1CEE9F52000D43EB /* OTSystemSettingEntity+CoreDataProperties.m */,
+				026DA8501CEE9F52000D43EB /* OTSystemSettingEntity.h */,
+				026DA8511CEE9F52000D43EB /* OTSystemSettingEntity.m */,
+			);
+			name = EntityClass;
+			sourceTree = "<group>";
+		};
+		0292A8821CEC58F5002D7C4A /* EntityManager */ = {
+			isa = PBXGroup;
+			children = (
+				0292A8831CEC5B01002D7C4A /* OTDataManager.h */,
+				0292A8841CEC5B01002D7C4A /* OTDataManager.m */,
+				026DA8541CEE9F96000D43EB /* OTSystemSettingManager.h */,
+				026DA8551CEE9F96000D43EB /* OTSystemSettingManager.m */,
+			);
+			name = EntityManager;
+			sourceTree = "<group>";
+		};
+		0292A8861CEC6E9E002D7C4A /* MyLog */ = {
+			isa = PBXGroup;
+			children = (
+				0283EA5E1CE574F400F84FAB /* Controller */,
+				0283EA5D1CE574ED00F84FAB /* Views */,
+			);
+			name = MyLog;
+			sourceTree = "<group>";
+		};
+		0292A8871CEC6EAE002D7C4A /* MyMember */ = {
+			isa = PBXGroup;
+			children = (
+				0292A8891CEC6EC4002D7C4A /* Views */,
+				0292A8881CEC6EBB002D7C4A /* Controller */,
+			);
+			name = MyMember;
+			sourceTree = "<group>";
+		};
+		0292A8881CEC6EBB002D7C4A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0292A88A1CEC6EE2002D7C4A /* MemberListTVC.h */,
+				0292A88B1CEC6EE2002D7C4A /* MemberListTVC.m */,
+				0292A88D1CEC7322002D7C4A /* AddMemberTVC.h */,
+				0292A88E1CEC7322002D7C4A /* AddMemberTVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0292A8891CEC6EC4002D7C4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +568,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0283EA371CE5727D00F84FAB /* LaunchScreen.storyboard in Resources */,
+				0283EAA61CE9D1AF00F84FAB /* user_logo.jpg in Resources */,
+				0283EA8D1CE5A53900F84FAB /* loading.jpg in Resources */,
 				0283EA341CE5727D00F84FAB /* Assets.xcassets in Resources */,
+				0283EA891CE5A4E600F84FAB /* LaunchScreen.xib in Resources */,
 				0283EA2F1CE5727D00F84FAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,10 +597,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0283EA2C1CE5727D00F84FAB /* ViewController.m in Sources */,
+				0292A8851CEC5B01002D7C4A /* OTDataManager.m in Sources */,
+				0283EA761CE585FB00F84FAB /* AddLogTableViewController.m in Sources */,
+				0292A87F1CEC589F002D7C4A /* OTMemberDataEntity+CoreDataProperties.m in Sources */,
+				0292A88C1CEC6EE2002D7C4A /* MemberListTVC.m in Sources */,
+				0283EA6A1CE57B3F00F84FAB /* OTNavigationController.m in Sources */,
+				0292A8791CEC5855002D7C4A /* OTLogDataEntity+CoreDataProperties.m in Sources */,
+				026DA8561CEE9F96000D43EB /* OTSystemSettingManager.m in Sources */,
+				0283EA901CE5CD2600F84FAB /* MenuCell.m in Sources */,
+				0292A8801CEC589F002D7C4A /* OTMemberDataEntity.m in Sources */,
 				0283EA291CE5727C00F84FAB /* AppDelegate.m in Sources */,
+				026DA8531CEE9F52000D43EB /* OTSystemSettingEntity.m in Sources */,
+				0283EA701CE57C2E00F84FAB /* UIColor+Extension.m in Sources */,
+				0283EA7C1CE59ACC00F84FAB /* ICSDrawerController.m in Sources */,
+				0283EA9A1CE5D7AA00F84FAB /* OTTabBarStoryboardSegue.m in Sources */,
+				026DA8521CEE9F52000D43EB /* OTSystemSettingEntity+CoreDataProperties.m in Sources */,
 				0283EA321CE5727D00F84FAB /* IJiaBan.xcdatamodeld in Sources */,
+				0283EA991CE5D7AA00F84FAB /* OTTabBarController.m in Sources */,
+				0292A88F1CEC7322002D7C4A /* AddMemberTVC.m in Sources */,
 				0283EA261CE5727C00F84FAB /* main.m in Sources */,
+				0283EAA11CE5DA2400F84FAB /* TabBarViewController.m in Sources */,
+				0292A87A1CEC5855002D7C4A /* OTLogDataEntity.m in Sources */,
+				02E7E4B11CEC32C8002FDD29 /* ShowLogCell.m in Sources */,
+				0283EA731CE5822000F84FAB /* ShowLogViewController.m in Sources */,
+				0283EA641CE5789600F84FAB /* UITableView+EmptyData.m in Sources */,
+				026DA84D1CEDC570000D43EB /* SystemSettingTVC.m in Sources */,
+				0283EA851CE59EBF00F84FAB /* MenuViewController.m in Sources */,
+				0283EA7D1CE59ACC00F84FAB /* ICSDropShadowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,14 +665,6 @@
 				0283EA2E1CE5727D00F84FAB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0283EA351CE5727D00F84FAB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0283EA361CE5727D00F84FAB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -420,7 +756,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IJiaBan/OTProjectConfigPCH.pch";
 				INFOPLIST_FILE = IJiaBan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quanquaner.IJiaBan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,7 +771,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IJiaBan/OTProjectConfigPCH.pch";
 				INFOPLIST_FILE = IJiaBan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quanquaner.IJiaBan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +847,7 @@
 				0283EA531CE5727D00F84FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0283EA541CE5727D00F84FAB /* Build configuration list for PBXNativeTarget "IJiaBanTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +856,7 @@
 				0283EA561CE5727D00F84FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0283EA571CE5727D00F84FAB /* Build configuration list for PBXNativeTarget "IJiaBanUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +865,7 @@
 				0283EA591CE5727D00F84FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

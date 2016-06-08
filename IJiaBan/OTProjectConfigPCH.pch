@@ -1,0 +1,27 @@
+//
+//  OTProjectConfigPCH.pch
+//  IJiaBan
+//
+//  Created by 圈圈科技 on 16/5/20.
+//  Copyright © 2016年 圈圈科技. All rights reserved.
+//
+
+#ifndef OTProjectConfigPCH_pch
+#define OTProjectConfigPCH_pch
+
+
+#ifdef __OBJC__
+
+#import "Config.h"
+#import "PassValueDelegate.h"
+#import "UIColor+Extension.h"
+#import "UITableView+EmptyData.h"
+#import "OTDataManager.h"
+#import "OTSystemSettingManager.h"
+
+
+#endif
+
+
+
+#endif /* OTProjectConfigPCH_pch */

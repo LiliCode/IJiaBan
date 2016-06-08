@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ICSDrawerController.h"
 #import <CoreData/CoreData.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+
+@property (strong , nonatomic) ICSDrawerController *drawerController;   //侧滑控制器
 
 @property (strong, nonatomic) UIWindow *window;
 
@@ -20,6 +24,12 @@
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 
+/**
+ *  查询数据
+ *  @param entityName 实体名
+ *  @param error 错误详情 二级指针
+ */
+- (NSArray *)find:(NSString *)entityName error:(NSError **)error;
 
 @end
 

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MenuCell.h
 //  IJiaBan
 //
 //  Created by 圈圈科技 on 16/5/13.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MenuCell : UITableViewCell
 
+@property (copy , nonatomic) NSString *itemName;
 
 @end
-
