@@ -31,4 +31,16 @@ typedef NS_ENUM(NSInteger, OTDataMode)
 
 #define AppBackgroundColor  @"#F3F6F7" //全局背景色
 
+//异或运算
+#define XRL(A, B) ((!(A) && (B)) || ((A) && !(B)))
+#define xrl(a, b) XRL(a, b)
+#define xor(a, b) xrl(a, b)
+
+//同或运算
+#define xnor(a, b) !xol(a, b)
+
+
 #endif //__CONFIG_H__
+
+
+
