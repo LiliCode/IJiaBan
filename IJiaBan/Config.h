@@ -9,6 +9,7 @@
 #ifndef __CONFIG_H__
 #define __CONFIG_H__
 
+#include <stdbool.h>
 #import <Foundation/Foundation.h>
 
 /**
@@ -31,13 +32,22 @@ typedef NS_ENUM(NSInteger, OTDataMode)
 
 #define AppBackgroundColor  @"#F3F6F7" //全局背景色
 
-//异或运算
-#define XRL(A, B) ((!(A) && (B)) || ((A) && !(B)))
-#define xrl(a, b) XRL(a, b)
-#define xor(a, b) xrl(a, b)
+/**
+ *  异或运算
+ *  @param  a b 传入逻辑参数
+ *  @return 返回运算结果的逻辑值
+ */
+bool xrl(bool a, bool b);
 
-//同或运算
-#define xnor(a, b) !xol(a, b)
+#define xor(a, b) xrl(a, b)
+#define XRL(A, B) xrl(A, B)
+
+/**
+ *  同或运算
+ *  @param  a b 传入逻辑参数
+ *  @return 返回运算结果的逻辑值
+ */
+bool xnor(bool a, bool b);
 
 
 #endif //__CONFIG_H__

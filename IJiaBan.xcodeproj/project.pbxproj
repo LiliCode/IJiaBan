@@ -41,6 +41,7 @@
 		0292A88C1CEC6EE2002D7C4A /* MemberListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0292A88B1CEC6EE2002D7C4A /* MemberListTVC.m */; };
 		0292A88F1CEC7322002D7C4A /* AddMemberTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0292A88E1CEC7322002D7C4A /* AddMemberTVC.m */; };
 		02E7E4B11CEC32C8002FDD29 /* ShowLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E7E4B01CEC32C8002FDD29 /* ShowLogCell.m */; };
+		22009A961D0EFFE90050332A /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 22009A951D0EFFE90050332A /* Config.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,7 @@
 		0292A88E1CEC7322002D7C4A /* AddMemberTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMemberTVC.m; sourceTree = "<group>"; };
 		02E7E4AF1CEC32C8002FDD29 /* ShowLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowLogCell.h; sourceTree = "<group>"; };
 		02E7E4B01CEC32C8002FDD29 /* ShowLogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowLogCell.m; sourceTree = "<group>"; };
+		22009A951D0EFFE90050332A /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				0283EA661CE57A6900F84FAB /* Config.h */,
+				22009A951D0EFFE90050332A /* Config.m */,
 				028C3F9C1CEEF1C300CA4804 /* OTProjectConfigPCH.pch */,
 			);
 			name = ProjectConfig;
@@ -605,6 +608,7 @@
 				026DA8561CEE9F96000D43EB /* OTSystemSettingManager.m in Sources */,
 				0283EA901CE5CD2600F84FAB /* MenuCell.m in Sources */,
 				0292A8801CEC589F002D7C4A /* OTMemberDataEntity.m in Sources */,
+				22009A961D0EFFE90050332A /* Config.m in Sources */,
 				0283EA291CE5727C00F84FAB /* AppDelegate.m in Sources */,
 				026DA8531CEE9F52000D43EB /* OTSystemSettingEntity.m in Sources */,
 				0283EA701CE57C2E00F84FAB /* UIColor+Extension.m in Sources */,
